@@ -1,0 +1,15 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  tags:
+    - java
+    - harness
+  name: continuous-efficiency
+  annotations:
+    backstage.io/source-location: url:https://github.com/harness/continuous-efficiency
+spec:
+  type: service
+  system: harness
+  lifecycle: experimental
+  owner: Harness_Account_All_Users
